@@ -1,4 +1,13 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1-U642OoCyb8OSM8nx9lme49dmWa_aUcU?usp=sharing)
+
+## Explanation 
+
+Researchers from Netherland open-sourced RelTR, a one-stage method via visual appearance only, get only worthy relationships between objects in an image.
+
+Different objects in the same scene are slightly related to each other. However, only a limited number of these relationships are noteworthy. 
+
+The scene graph generation gets viewed as a set prediction problem. The proposed solution is an end-to-end scene graph generation model RelTR having an encoder-decoder architecture. RelTR is a one-stage method that predicts a set of relationships directly only using visual appearance. It does not combine entities and label all possible predicates.
+
 # RelTR: Relation Transformer for Scene Graph Generation
 
 We now provide [[Colab](https://colab.research.google.com/drive/1-U642OoCyb8OSM8nx9lme49dmWa_aUcU?usp=sharing)] Demo! 
